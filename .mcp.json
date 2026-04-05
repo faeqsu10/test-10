@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcp-image": {
+      "command": "npx",
+      "args": ["-y", "mcp-image"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "IMAGE_OUTPUT_DIR": "/home/user/test-10/projects/poster-date-edit/output"
+      }
+    }
+  }
+}
